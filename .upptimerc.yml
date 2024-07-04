@@ -5,11 +5,6 @@ user-agent: koj-co
 sites:
   - name: rokkhan srv
     url: https://sd12ncp01.rokkhan.com
-  - name: rokkhan srv IPv6 test
-    url: sd12ncp01.rokkhan.com
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
